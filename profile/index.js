@@ -8,3 +8,6 @@ $(".c_steam").on("click", function () {
 $(".c_github").on("click", function () {
     location.href="https://github.com/dimtakt"
 })
+
+
+console.log("멀봐 ㅡㅡ")
