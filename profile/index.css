@@ -1,0 +1,163 @@
+/* 
+    자작 폰트
+*/
+@font-face {
+    font-family: 'SDTR';
+    font-style: 'normal';
+    font-weight: 400;
+    src: url("files/SDTR_Font.ttf");
+}
+
+.font_sdtr {
+    font-family: 'SDTR';
+}
+
+/* 
+    폰트 출처 :
+    https://blog.naver.com/campanula913/221366697603
+*/
+@font-face {
+    font-family: 'Stardust';
+    font-style: 'normal';
+    font-weight: 400;
+    src: url("files/PF스타더스트.ttf");
+}
+
+.font_stardust {
+    font-family: 'Stardust';
+}
+
+
+
+
+/* ************** */
+/* header section */
+/* ************** */
+body {
+    background-color: rgb(37, 37, 37);
+    color: darkgray;
+
+    font-family: "SDTR";
+}
+
+header {
+    margin: 0 auto;
+    /* background-color: aqua; */
+
+    cursor: pointer;
+    filter: grayscale(80%);
+    transition: all 0.2s;
+
+    width: 128px;
+}
+
+header:hover {
+    filter: grayscale(0%);
+    color: white;
+}
+
+header div.picture img {
+    border-radius: 50%;
+}
+
+header div.name {
+    text-align: center;
+}
+
+
+
+/* ************* */
+/* aside section */
+/* ************* */
+aside {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    /* background-color: darkcyan; */
+    
+    margin: auto;
+    width: 200px;
+
+    
+}
+
+aside div.links {
+    display: flex;
+    justify-content: space-between;
+    
+    /* background-color: brown; */
+    
+    border-radius: 35px;
+    border-style: solid;
+    border-color: darkgray;
+    border-width: 2px;
+    
+    margin: 4px 0;
+    
+    width: 200px;
+    height: 70px;
+    
+    filter:grayscale(100%);
+
+    transition: all 0.2s;
+
+    cursor: pointer;
+}
+
+aside div.links:hover {
+    filter:grayscale(0%);
+
+    color: white;
+}
+
+aside div.links img {
+    /* background-color: burlywood; */
+    
+    border-radius: 50%;
+    
+    margin-left: 5px;
+    margin-top: 5px;
+    
+    height: 60px;
+    width: 60px;
+    
+    /* filter:grayscale(100%); */
+}
+
+aside div.links .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    /* background-color: burlywood; */
+    
+    margin: 5px;
+    
+    width: 115px;
+    height: 60px;
+}
+
+aside div.links .text .text_main {
+    display: flex;
+    align-items: end;
+    
+    font-size: larger;
+
+    /* background-color: coral; */
+
+    width: 100%;
+    height: 45%;
+}
+
+aside div.links .text .text_des {
+    display: flex;
+    align-items: center;
+    
+    font-size: smaller;
+
+    /* background-color: coral; */
+
+    width: 100%;
+    height: 45%;
+}
