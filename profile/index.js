@@ -8,6 +8,9 @@ $(".c_steam").on("click", function () {
 $(".c_github").on("click", function () {
     location.href="https://github.com/dimtakt"
 })
+$(".spotify_link").on("click", function () {
+    location.href="https://spotify-github-profile.vercel.app/api/view?uid=wagt04j2x2k2rbriz8t6fj9l8&redirect=true"
+})
 
 
 console.log("멀봐 ㅡㅡ")
