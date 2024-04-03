@@ -15,7 +15,7 @@ $(".spotify_link").on("click", function () {
 // 5초마다 자동 갱신
 // 더미 랜덤값을 붙이는 식으로 다른 페이지를 불러오는 것처럼 속여서 새로고침함
 setInterval(() => {
-    // 초를 이용, 짝수 초마다 url 초기화
+    // 초를 이용, 홀수 초마다 url 초기화
     // ?v= 랜덤 문자열 계속 쌓이는 것 방지
     let now = new Date();
     let sec = now.getSeconds();
